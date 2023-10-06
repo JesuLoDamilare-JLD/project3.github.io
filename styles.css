@@ -46,7 +46,6 @@ ul li{
     background-size: cover;
     height: 700px;
     width: 1200px;
-    border: 1px solid red;
 }
 .mission_tag{
     background-color: black;
@@ -55,5 +54,103 @@ ul li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    line-height: 50px;    
+}
+
+/* Section 2 */
+#selection2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+
+}
+.section2a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.selection2img1 img, .selection2img2 img{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selection2imgcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.selection2img1:nth-child(2) img{
+    margin: 0 50px;
+}
+.selection2img2 img{
+    margin:0 25px;
+}
+.selection2img1 h4, .selection2img2 h4{
+    margin: 10px;
+}
+
+/* section 3 */
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3a{
+    background-image: url(img-locations-background.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    height: 500px;
+    width: 1200px;
+}
+.selection3location_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.section3location{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    text-align: center;
+    line-height: 70px;
+    width: 300px;
+    margin: 15px 20px;
+}
+
+/* Footer */
+
+.footer_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.footer_a1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+}
+footer h5:last-child{
+    margin: 10px;
 }
